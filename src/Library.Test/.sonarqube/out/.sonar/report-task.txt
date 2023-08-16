@@ -1,0 +1,6 @@
+projectKey=Library
+serverUrl=http://localhost:9000
+serverVersion=10.1.0.73491
+dashboardUrl=http://localhost:9000/dashboard?id=Library
+ceTaskId=AYn2h8553Wn6fZKQtYv5
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYn2h8553Wn6fZKQtYv5

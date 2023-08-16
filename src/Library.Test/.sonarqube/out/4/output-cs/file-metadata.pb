@@ -1,0 +1,11 @@
+d
+[C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Configure.csutf-8
+vC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Author\CreateAuthorConsumer.csutf-8
+vC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Author\RemoveAuthorConsumer.csutf-8
+vC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Author\UpdateAuthorConsumer.csutf-8{
+rC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Book\CreateBookConsumer.csutf-8{
+rC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Book\RemoveBookConsumer.csutf-8{
+rC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Book\UpdateBookConsumer.csutf-8õ
+èC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\obj\Debug\net6.0\Library.Infrastructure.Worker.GlobalUsings.g.csutf-8ö
+éC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8ô
+çC:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\obj\Debug\net6.0\Library.Infrastructure.Worker.AssemblyInfo.csutf-8

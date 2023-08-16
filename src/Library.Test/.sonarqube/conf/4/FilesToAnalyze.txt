@@ -1,0 +1,7 @@
+﻿C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Configure.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Author\CreateAuthorConsumer.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Author\RemoveAuthorConsumer.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Author\UpdateAuthorConsumer.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Book\CreateBookConsumer.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Book\RemoveBookConsumer.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Infrastructure.Worker\Consumer\Book\UpdateBookConsumer.cs

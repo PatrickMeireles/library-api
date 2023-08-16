@@ -1,0 +1,12 @@
+﻿C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\Controllers\AuthorsController.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\Controllers\BooksController.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\Controllers\HealthController.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\Filter\NotificationFilter.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\Program.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\obj\Debug\net6.0\Library.Api.GlobalUsings.g.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\obj\Debug\net6.0\Library.Api.AssemblyInfo.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\obj\Debug\net6.0\Library.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\appsettings.Development.json
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\appsettings.json
+C:\Users\patrick.amorim\source\repos\Library\src\Library.Api\Properties\launchSettings.json

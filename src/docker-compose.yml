@@ -1,0 +1,59 @@
+version: '3.4'
+
+services:
+  api:
+    image: docker.io/patrick-amorim/library-api:latest
+    hostname: api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__EF_CONNECTIONSTRING: Server=postgres;Port=5432;User ID=postgres;Password=admin;Database=Library
+      MongoDatabase__ConnectionString: mongodb://admin:password@mongodb:27017
+      MongoDatabase__DatabaseName: Library
+      RabbitMq__ConnectionString: amqp://guest:guest@rabbit/
+      Redis__ConnectionString: redis:6379,password=RedisPass!
+      CacheConfiguration__AbsoluteExpirationHours: 24
+      CacheConfiguration__SlidingExpirationMinutes: 60
+    depends_on:
+      - mongodb
+      - redis
+      - postgres
+      - rabbit
+    build: .
+    ports:
+      - "8090:80"
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: Library
+
+  redis:
+    image: redis
+    command: redis-server --requirepass RedisPass!
+    ports:
+      - "6379:6379"
+      
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=admin
+    ports: 
+        - "5432:5432"
+    volumes: 
+        - ./init/docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+
+  rabbit:
+      container_name: rabbit
+      image: rabbitmq:3-management
+      environment:
+        - RABBITMQ_DEFAULT_USER=guest
+        - RABBITMQ_DEFAULT_PASS=guest
+      ports:
+        - 15672:15672
+        - 5672:5672
