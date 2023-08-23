@@ -15,7 +15,7 @@
 
 - Clone this repository
 
-- In the *src/* folder and execute this commands
+- In the *src/* folder and execute these commands
      - Build the docker file
         ```
         docker build -t patrick-amorim/library-api:latest -f Library.Api/Dockerfile .
